@@ -120,7 +120,7 @@ function getLearnerData(course, ag, submissions) {
             // Calculate totals
             totWeightScored += score;
             totPossiblePoints += assignment.points_possible;
-
+console.log(getLearnerData)
 
 };
         }
@@ -128,3 +128,4 @@ function getLearnerData(course, ag, submissions) {
     }
   }
 }
+
